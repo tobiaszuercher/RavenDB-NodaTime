@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NodaTime" Version="2.3.0" />
+    <PackageReference Include="RavenDB.Client" Version="4.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Raven.Bundles.NodaTime\Raven.Bundles.NodaTime.csproj" />
+    <ProjectReference Include="..\Raven.Client.NodaTime\Raven.Client.NodaTime.csproj" />
+  </ItemGroup>
+</Project>
